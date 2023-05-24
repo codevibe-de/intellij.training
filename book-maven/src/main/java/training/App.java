@@ -6,8 +6,6 @@ import utils.IsbnGenerator;
 
 public class App {
 
-	private String s;
-
 	public static void main(String[] args) {
 		BookService bookService = new BookService(new InMemoryBookRepository());
 		IsbnGenerator isbnGenerator = new IsbnGenerator();
