@@ -13,8 +13,8 @@ public class SomeService {
 	// TODO create an indirection to this method via class `SomeServiceUtils`
 	// ("Introduce Indirection")
 	public String toUpper() {
-		// TODO introduce a parameter for the content value
-		var content = "abc";
-		return content.toUpperCase();
+		// TODO introduce a parameter so that the string "abc" can be given as an
+		// arbitrary value
+		return "abc".toUpperCase();
 	}
 }
