@@ -3,9 +3,9 @@ package training.refactor.j_extractclass;
 public class ComplexService {
 
 	// TODO move these fields into a new `AuditSettings` container class, which is
-	// referenced by `auditSettings` here
+	// referenced by `auditSettings` here. Remove the "audit" prefix in each field
+	// name doing so ("auditId" -> "id")
 	private String auditId;
-	private long auditOffset;
 	private String auditLevel;
 
 	// TODO extract all parameters into a parameter class
