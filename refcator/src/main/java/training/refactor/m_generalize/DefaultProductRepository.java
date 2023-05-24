@@ -11,7 +11,8 @@ public class DefaultProductRepository {
 	}
 
 	// TODO generalize the return type to `Iterable` -- you need to change the
-	// caller's expected return type first, though!
+	// caller's expected return type first, though! This refactoring is limited to
+	// the assignable types
 	public ArrayList<Product> getProducts() {
 		return this.products;
 	}

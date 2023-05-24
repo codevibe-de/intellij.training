@@ -1,9 +1,11 @@
 package training.refactor.m_generalize;
 
+import java.util.List;
+
 public class AppM {
 
 	public static void main(String[] args) {
-		Iterable<Product> products = new DefaultProductRepository().getProducts();
+		List<Product> products = new DefaultProductRepository().getProducts();
 	}
 
 }
