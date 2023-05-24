@@ -10,6 +10,7 @@ public class ComplexService {
 
 	// TODO extract all parameters into a parameter class
 	public double calculate(int count1, int count2, double factorX, double factorY, String prefix) {
+		System.out.println(this.auditId + "/" + this.auditLevel + " -- calculate() called");
 		// ...
 		return 42.0;
 	}
