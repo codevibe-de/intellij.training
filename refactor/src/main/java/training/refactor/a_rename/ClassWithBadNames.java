@@ -2,13 +2,13 @@ package training.refactor.a_rename;
 
 public class ClassWithBadNames {
 
-    private String xxx; // name
+    private String xxx; // TODO rename to "name"
 
     public ClassWithBadNames() {
         yyy();
     }
 
-    // init()
+    // TODO rename to "init()"
     private void yyy() {
     }
 
