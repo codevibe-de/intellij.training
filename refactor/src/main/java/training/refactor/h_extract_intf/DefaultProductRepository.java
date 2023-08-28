@@ -14,4 +14,9 @@ public class DefaultProductRepository {
 	public ArrayList<Product> getProducts() {
 		return this.products;
 	}
+
+	public static void someStatic() {}
+
+	private void somePrivate() {}
+
 }
