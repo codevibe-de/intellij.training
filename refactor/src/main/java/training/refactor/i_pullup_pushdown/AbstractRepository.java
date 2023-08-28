@@ -14,8 +14,7 @@ public class AbstractRepository<T> {
 		return this.items;
 	}
 
-	// TODO push this method down into DefaultProductRepository (and simplify this
-	// method's body afterwards)
+	// TODO push this method down into DefaultProductRepository (and simplify it then)
 	public void printProductIds() {
 		getAll().forEach(it -> {
 			if (it instanceof Product p) {
