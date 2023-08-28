@@ -2,8 +2,7 @@ package training.refactor.h_extract_intf;
 
 import java.util.ArrayList;
 
-// TASKS:
-// - extract interface `ProductRepository` with methods `add` and `getProducts`
+// TODO extract interface `ProductRepository` with methods `add` and `getProducts`
 public class DefaultProductRepository {
 
 	private ArrayList<Product> products = new ArrayList<>();
