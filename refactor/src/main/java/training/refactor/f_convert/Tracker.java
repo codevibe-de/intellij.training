@@ -1,9 +1,9 @@
 package training.refactor.f_convert;
 
-// TASKS:
-// - convert `total` to a field, which is initialized at field declaration level
-// - fix the `getTotal()` method
-// - convert the anonymous Runnable into an inner class with name `IncrementRunnable`
+// TODO extract `total` to a field, which is initialized at field declaration level
+// TODO fix the `getTotal()` method
+// TODO convert the anonymous Runnable into an inner class with name `IncrementRunnable`
+// TODO then move `IncrementRunnable` into a top-level class
 public class Tracker {
 
 	public int trackVisit(int numberOfGuests) {
@@ -13,7 +13,6 @@ public class Tracker {
 	}
 
 	public int getTotal() {
-		// TODO
 		return 0;
 	}
 
