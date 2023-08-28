@@ -1,4 +1,4 @@
-package training.refactor.h_extract_superclass;
+package training.refactor.d3_extract_superclass;
 
 import java.util.ArrayList;
 

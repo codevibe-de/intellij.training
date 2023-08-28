@@ -1,4 +1,4 @@
-package training.refactor.d_extract;
+package training.refactor.d1_extract;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;

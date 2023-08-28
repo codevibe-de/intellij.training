@@ -1,4 +1,4 @@
-package training.refactor.h_extract_intf;
+package training.refactor.d2_extract_intf;
 
 import java.util.ArrayList;
 
