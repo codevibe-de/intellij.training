@@ -3,6 +3,7 @@ package training.refactor.m_generalize;
 import java.util.ArrayList;
 import java.util.List;
 
+// TODO 2) create a copy of this class and make it a Product repository
 public class DefaultCustomerRepository {
 
 	private ArrayList<Customer> customers = new ArrayList<>();
