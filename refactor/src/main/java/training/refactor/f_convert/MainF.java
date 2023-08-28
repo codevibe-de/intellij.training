@@ -6,8 +6,6 @@ public class MainF {
 		var tracker = new Tracker();
 		tracker.getIncrementByOneRunnable().run();
 		System.out.println(tracker.getTotal());
-
-		asd
 	}
 
 }
