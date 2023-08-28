@@ -2,9 +2,8 @@ package training.refactor.h_extract_superclass;
 
 import java.util.ArrayList;
 
-// TASKS:
-// - extract a superclass `AbstractRepository` which contains a list of generic items
-// - rename fields and methods as appropriate
+// TODO extract a superclass `AbstractRepository` which contains a list of generic items
+// TODO rename fields and methods as appropriate
 public class DefaultProductRepository {
 
 	private ArrayList<Product> products = new ArrayList<>();
@@ -16,4 +15,5 @@ public class DefaultProductRepository {
 	public ArrayList<Product> getProducts() {
 		return this.products;
 	}
+
 }
