@@ -1,6 +1,7 @@
 package training.refactor.m_generalize;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class DefaultCustomerRepository {
 
@@ -10,8 +11,8 @@ public class DefaultCustomerRepository {
 		this.customers.add(c);
 	}
 
-	// TODO generalize the return type to `Iterable`
-	public Iterable<Customer> getCustomers() {
+	// TODO 1) generalize the return type to `Iterable`
+	public List<Customer> getCustomers() {
 		return this.customers;
 	}
 }

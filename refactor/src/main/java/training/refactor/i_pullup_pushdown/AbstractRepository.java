@@ -1,5 +1,7 @@
 package training.refactor.i_pullup_pushdown;
 
+import training.refactor.Product;
+
 import java.util.ArrayList;
 
 public class AbstractRepository<T> {

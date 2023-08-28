@@ -1,5 +1,7 @@
 package training.refactor.d3_extract_superclass;
 
+import training.refactor.Product;
+
 import java.util.ArrayList;
 
 // TODO extract a superclass `AbstractRepository` which contains a list of generic items
