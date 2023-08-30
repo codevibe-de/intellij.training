@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="IdGeneratorTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+  <configuration default="false" name="IdGeneratorTest" type="JUnit" factoryName="JUnit">
     <module name="testing" />
     <extension name="coverage">
       <pattern>
