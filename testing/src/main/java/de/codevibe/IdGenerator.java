@@ -20,4 +20,6 @@ public class IdGenerator {
         var nstr = String.format("%d", new Random().nextInt()); // fixme
         return prefix + nstr + suffix;
     }
+
+
 }
