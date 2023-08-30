@@ -4,9 +4,9 @@ import training.refactor.Product;
 
 public class DefaultProductRepository extends AbstractRepository<Product> {
 
-	// TODO pull this method up into superclass
-	public void printAll() {
-		getAll().forEach(System.out::println);
-	}
+    // TODO pull this method up into superclass
+    public void printAll() {
+        getAll().forEach(System.out::println);
+    }
 
 }

@@ -8,14 +8,14 @@ import java.util.ArrayList;
 // TODO rename fields and methods as appropriate
 public class DefaultProductRepository {
 
-	private ArrayList<Product> products = new ArrayList<>();
+    private ArrayList<Product> products = new ArrayList<>();
 
-	public void add(Product p) {
-		this.products.add(p);
-	}
+    public void add(Product p) {
+        this.products.add(p);
+    }
 
-	public ArrayList<Product> getProducts() {
-		return this.products;
-	}
+    public ArrayList<Product> getProducts() {
+        return this.products;
+    }
 
 }

@@ -6,22 +6,22 @@ package training.refactor.f_convert;
 // TODO then move `IncrementRunnable` into a top-level class
 public class Tracker {
 
-	public int trackVisit(int numberOfGuests) {
-		int total = 0;
-		total += numberOfGuests;
-		return total;
-	}
+    public int trackVisit(int numberOfGuests) {
+        int total = 0;
+        total += numberOfGuests;
+        return total;
+    }
 
-	public int getTotal() {
-		return 0;
-	}
+    public int getTotal() {
+        return 0;
+    }
 
-	public Runnable getIncrementByOneRunnable() {
-		return new Runnable() {
-			@Override
-			public void run() {
-				trackVisit(1);
-			}
-		};
-	}
+    public Runnable getIncrementByOneRunnable() {
+        return new Runnable() {
+            @Override
+            public void run() {
+                trackVisit(1);
+            }
+        };
+    }
 }
