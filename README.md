@@ -12,4 +12,4 @@ This repository contains sample code and exercises for my Intellij IDEA Training
 
 ## Thanks
 
-To Everbody Participating!
+To Everybody Participating!
