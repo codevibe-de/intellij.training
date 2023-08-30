@@ -22,4 +22,5 @@ class IdGeneratorTest {
         Assertions.assertThat(id).hasSize(9);
         // todo add checks for prefix & suffix
     }
+
 }
