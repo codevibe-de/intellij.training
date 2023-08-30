@@ -13,6 +13,9 @@ public class StreamProc {
         return optionalInt.orElse(0);
     }
 
+    /**
+     * Transforms strings in a crazy way!
+     */
     public List<Integer> transformStrings(String... strings) {
         return Arrays.stream(strings)
                 .map(String::toUpperCase)
