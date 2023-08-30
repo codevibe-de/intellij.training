@@ -1,7 +1,10 @@
 # Intellij For Java Developers
 
-This repository contains sample code and exercises for my Intellij Training.
+This repository contains sample code and exercises for my Intellij IDEA Training.
 
 ## Chapters
 
-TODO
+### 010 Introduction
+
+### 020 Project and Module Structure
+
