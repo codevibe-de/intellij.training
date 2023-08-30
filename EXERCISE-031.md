@@ -8,7 +8,7 @@
 
 Öffnen Sie die Datei `run_debug/src/main/resources/data.txt` und nutzen Sie
 Find/Replace mit regulären Ausdrücken und Capture-Groups um alle Werte in
-Anführungsstriche einzubetten, also z.B. aus 
+Anführungsstriche einzubetten, also z.B. aus
 
 ````text
 1;Bruce
