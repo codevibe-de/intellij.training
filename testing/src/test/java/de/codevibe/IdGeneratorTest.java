@@ -2,7 +2,6 @@ package de.codevibe;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 class IdGeneratorTest {
@@ -15,7 +14,6 @@ class IdGeneratorTest {
     }
 
     @Test
-    @Tag("critical")
     void generateId() {
         // when
         String id = this.generator.generateId();
