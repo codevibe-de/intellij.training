@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/intellij.training.iml" filepath="$PROJECT_DIR$/.idea/intellij.training.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pizza-app.iml" filepath="$PROJECT_DIR$/pizza-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/refactor/refactor.iml" filepath="$PROJECT_DIR$/refactor/refactor.iml" />
     </modules>
   </component>

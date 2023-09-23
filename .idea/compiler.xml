@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="run_debug" />
         <module name="refactor" />
+        <module name="viewing" />
         <module name="testing" />
       </profile>
     </annotationProcessing>
