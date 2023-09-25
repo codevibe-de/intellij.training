@@ -1,6 +1,6 @@
 package de.codevibe.counter;
 
-public class AppMain {
+public class CounterApp {
 
     public static void main(String[] args) {
         var counter = new Counter();
