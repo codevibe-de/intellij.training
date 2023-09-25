@@ -1,15 +1,19 @@
-# Intellij For Java Developers
+# Intellij IDEA For Java Developers
 
-This repository contains sample code and exercises for my Intellij IDEA Training.
+## About
 
-(c) Thomas Auinger
+This repository contains source code and exercises for our "Intellij IDEA For Java Developers"
+training.
 
-## Chapters
+## Copyright
 
-### 010 Introduction
+(c) 2023 codevibe.de
 
-### 020 Project and Module Structure
+Author: Thomas Auinger (thomas@auinger.de), Germany
 
-## Thanks
+This source is intended to be used in conjunction with a training given
+by me or one of my licensees. Therefore, you may use segments
+of this code in your projects if you took part in such a training.
 
-To Everybody Participating!
+In any case it is not permitted to reuse all or parts of
+this project for training or educational purposes without permission.
