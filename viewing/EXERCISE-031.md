@@ -5,13 +5,13 @@
 Schauen Sie sich den Code im Modul `viewing` an. Und dann:
 
 1. Öffnen Sie die Klasse `LibraryApp`
-1. Navigieren Sie zur Klasse der Variable `book`
-1. Schließen Sie den Editor der Klasse `Book`
+2. Navigieren Sie zur Klasse der Variable `book`
+3. Schließen Sie den Editor der Klasse `Book`
 
 Zurück im Editor der Klasse `LibraryApp`:
 
-1. Navigieren Sie zur Implementierung der `findByIsbn` Methode
-2. ... und von dort zum deklarierenden Interface
+1. Navigieren Sie zur Implementierung der `findByIsbn` Methode (STRG+B)
+2. ... und von dort zum deklarierenden Interface 8888888888
 3. Rufen Sie dort auf der `findByIsbn` Methode die Call-Hierarchy auf
 4. navigieren Sie in dem Call-Hierarchy Tool mit Pfeiltasten und Eingabetaste zu der Stelle im `LoggingBookRepository`,
    von wo der Aufruf des Repositories erfolgt
